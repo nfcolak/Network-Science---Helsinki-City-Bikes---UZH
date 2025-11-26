@@ -1,0 +1,2 @@
+num_nodes,num_edges,total_trips,total_distance_m,total_duration_s,average_trip_distance_m,average_trip_duration_s,reciprocity,num_strong_components,num_weak_components
+351,32815,258514,672915898.0,231745251,2603.0153028462673,896.4514533062039,0.7876276093250039,1,1
