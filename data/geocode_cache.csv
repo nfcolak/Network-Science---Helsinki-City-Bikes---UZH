@@ -34,7 +34,7 @@ station_id,station_name,lat,lon
 72,Eteläinen Hesperiankatu,60.1773455,24.9282717
 201,Länsisatamankuja,60.1555004,24.9158921
 206,Ruskeasuon varikko,60.2063634,24.903582
-541,"Aalto-yliopisto (M), Korkeakouluaukio",,
+541,"Aalto-yliopisto (M), Korkeakouluaukio",60.184977659846716,24.825516083788802
 110,Maistraatintori,60.1987781,24.9246618
 99,Muusantori,60.2068639,24.8556494
 62,Välimerenkatu,60.1583414,24.9136388
@@ -164,7 +164,7 @@ station_id,station_name,lat,lon
 591,Mellstenintie,60.1550649,24.7771879
 611,Matinkartanontie,60.1575746,24.7515162
 29,Baana,60.1719827,24.9343318
-703,Elfvik,,
+703,Elfvik,60.20195356978755,24.822317675426298
 109,Hertanmäenkatu,60.2018926,24.9226215
 11,Unioninkatu,60.1743125,24.9503178
 47,Vanha Kauppahalli,60.1661635,24.9527918
@@ -317,7 +317,7 @@ station_id,station_name,lat,lon
 267,Roihupelto,60.2098274,25.0580591
 34,Kansallismuseo,60.1749674,24.9317749
 261,Asentajanpuisto,60.196983,25.0403405
-224,Vesakkotie,,
+224,Vesakkotie,60.22810219553632,24.92621818379187
 653,Lukutori,60.1871012,24.7422414
 745,Leppävaaran urheilupuisto,60.2260678,24.8008678
 747,Leppävaaran uimahalli,60.2260563,24.8024658
@@ -346,7 +346,7 @@ station_id,station_name,lat,lon
 597,Linnakepolku,60.1626928,24.7902079
 507,Golfpolku,60.1676054,24.7952882
 633,Avaruuskatu,60.1694771,24.7263493
-631,Friisilänaukio,,
+631,Friisilänaukio,60.162776993076754,24.721221827965117
 997,Workshop Helsinki,60.1593867,24.9374738
 230,Mäkitorpantie,60.2240194,24.9507175
 18,Porthania,60.1702958,24.9484087
