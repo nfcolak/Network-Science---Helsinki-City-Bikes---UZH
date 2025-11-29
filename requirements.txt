@@ -6,3 +6,5 @@ jupyter
 geopy
 tqdm
 folium
+seaborn
+plotly

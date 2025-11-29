@@ -142,6 +142,14 @@ print("\n10. Sorting by departure time...")
 df = df.sort_values('Departure', ascending=False).reset_index(drop=True)
 print(f"   Sorted {len(df):,} rows")
 
+# Add temporal features for downstream analysis
+hour_of_day = df['Departure'].dt.hour
+df['time_window'] = pd.Series(['Night'] * len(df))
+df.loc[(hour_of_day >= 7) & (hour_of_day < 10), 'time_window'] = 'Morning peak'
+df.loc[(hour_of_day >= 10) & (hour_of_day < 15), 'time_window'] = 'Midday'
+df.loc[(hour_of_day >= 15) & (hour_of_day < 19), 'time_window'] = 'Evening peak'
+df['day_type'] = df['Departure'].dt.dayofweek.apply(lambda d: 'Weekend' if d >= 5 else 'Weekday')
+
 # Format datetime columns back to string for CSV export
 df['Departure'] = df['Departure'].dt.strftime('%Y-%m-%dT%H:%M:%S')
 df['Return'] = df['Return'].dt.strftime('%Y-%m-%dT%H:%M:%S')
