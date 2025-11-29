@@ -14,6 +14,32 @@ df = pd.read_csv('data/2021-04 (2).csv', encoding='utf-8-sig')
 initial_rows = len(df)
 print(f"Initial dataset: {initial_rows:,} rows")
 
+# Load station coordinates
+print("Loading station coordinates from cache...")
+coords_path = 'data/geocode_cache.csv'
+coords = pd.read_csv(coords_path)
+# Keep only ID and coordinates to avoid duplicate station name columns
+coords = coords[['station_id', 'lat', 'lon']]
+df = df.merge(
+    coords.rename(columns={
+        'station_id': 'Departure station id',
+        'lat': 'Departure_lat',
+        'lon': 'Departure_lon'
+    }),
+    on='Departure station id',
+    how='left'
+)
+df = df.merge(
+    coords.rename(columns={
+        'station_id': 'Return station id',
+        'lat': 'Return_lat',
+        'lon': 'Return_lon'
+    }),
+    on='Return station id',
+    how='left'
+)
+print(f"Coordinates merged. Rows with missing coords (departure): {df['Departure_lat'].isnull().sum()}, (return): {df['Return_lat'].isnull().sum()}")
+
 # Convert datetime columns
 df['Departure'] = pd.to_datetime(df['Departure'], format='mixed', errors='coerce')
 df['Return'] = pd.to_datetime(df['Return'], format='mixed', errors='coerce')
@@ -103,9 +129,6 @@ removed = before - len(df)
 print(f"   Removed: {removed:,} rows")
 print(f"   Remaining: {len(df):,} rows")
 
-# Drop the temporary speed column
-df = df.drop(columns=['Speed_kmh'])
-
 # Step 9: Remove trips with zero duration after cleaning
 print("\n9. Removing trips with zero duration...")
 before = len(df)
@@ -118,6 +141,14 @@ print(f"   Remaining: {len(df):,} rows")
 print("\n10. Sorting by departure time...")
 df = df.sort_values('Departure', ascending=False).reset_index(drop=True)
 print(f"   Sorted {len(df):,} rows")
+
+# Add temporal features for downstream analysis
+hour_of_day = df['Departure'].dt.hour
+df['time_window'] = pd.Series(['Night'] * len(df))
+df.loc[(hour_of_day >= 7) & (hour_of_day < 10), 'time_window'] = 'Morning peak'
+df.loc[(hour_of_day >= 10) & (hour_of_day < 15), 'time_window'] = 'Midday'
+df.loc[(hour_of_day >= 15) & (hour_of_day < 19), 'time_window'] = 'Evening peak'
+df['day_type'] = df['Departure'].dt.dayofweek.apply(lambda d: 'Weekend' if d >= 5 else 'Weekday')
 
 # Format datetime columns back to string for CSV export
 df['Departure'] = df['Departure'].dt.strftime('%Y-%m-%dT%H:%M:%S')
