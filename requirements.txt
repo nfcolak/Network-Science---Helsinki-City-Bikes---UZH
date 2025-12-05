@@ -8,3 +8,4 @@ tqdm
 folium
 seaborn
 plotly
+scikit-learn
