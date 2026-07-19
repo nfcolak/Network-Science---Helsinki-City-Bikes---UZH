@@ -1,0 +1,352 @@
+station_id,station_name,in_degree,out_degree,weighted_in_degree,weighted_out_degree
+30,Itämerentori,183,171,4933,4799
+113,Pasilan asema,200,195,3136,3684
+126,Kalasatama (M),192,186,3894,3529
+41,Ympyrätalo,199,191,3560,3330
+21,Töölönlahdenkatu,169,164,2917,2689
+26,Kamppi (M),158,152,2393,2450
+137,Arabian kauppakeskus,167,156,2461,2318
+541,"Aalto-yliopisto (M), Korkeakouluaukio",131,123,2342,2303
+64,Tyynenmerenkatu,134,139,2306,2282
+63,Jätkäsaarenlaituri,157,154,2247,2273
+71,Hietaniemenkatu,152,146,2305,2250
+22,Rautatientori / länsi,167,162,2360,2161
+547,Jämeräntaival,108,126,2113,2134
+122,Lintulahdenkatu,160,162,2109,2131
+6,Hietalahdentori,147,151,2136,2109
+121,Vilhonvuorenkatu,176,181,2165,2093
+123,Näkinsilta,172,165,2026,2017
+19,Rautatientori / itä,160,167,2180,1985
+29,Baana,163,150,1965,1922
+124,Isoisänsilta,156,145,2047,1912
+36,Apollonkatu,170,167,1908,1892
+12,Kanavaranta,146,136,1933,1841
+40,Hakaniemi (M),167,158,1869,1838
+1,Kaivopuisto,125,126,2025,1812
+31,Marian sairaala,156,159,1772,1796
+39,Ooppera,177,173,1881,1790
+75,Korjaamo,165,172,1769,1778
+116,Linnanmäki,183,177,1587,1763
+45,Brahen kenttä,179,186,1667,1748
+16,Liisanpuistikko,146,151,1811,1734
+25,Narinkka,160,161,1691,1724
+37,Töölönkatu,161,161,1716,1720
+89,Tilkanvierto,179,163,1711,1675
+57,Lauttasaaren ostoskeskus,158,150,1628,1669
+259,Petter Wetterin tie,119,106,1686,1615
+44,Sörnäinen (M),171,166,1549,1614
+82,Töölöntulli,182,181,1480,1600
+62,Välimerenkatu,135,137,1574,1578
+72,Eteläinen Hesperiankatu,160,158,1691,1575
+118,Fleminginkatu,184,179,1529,1573
+76,Olympiastadion,168,159,1584,1558
+5,Sepänkatu,139,135,1475,1536
+78,Messeniuksenkatu,161,173,1467,1502
+94,Laajalahden aukio,178,169,1616,1469
+9,Erottajan aukio,146,146,1480,1453
+17,Varsapuistikko,159,152,1431,1423
+117,Brahen puistikko,164,179,1367,1418
+58,Lauttasaarensilta,137,137,1434,1414
+4,Viiskulma,135,135,1385,1405
+134,Haukilahdenkatu,157,146,1420,1383
+90,Paciuksenkaari,184,174,1442,1382
+77,Nordenskiöldinaukio,162,173,1359,1379
+91,Seurasaari,169,146,1397,1378
+581,Niittykumpu (M),95,81,1415,1339
+74,Rajasaarentie,156,147,1325,1321
+24,Mannerheimintie,141,145,1323,1306
+150,Töölönlahden puisto,163,163,1429,1304
+61,Länsisatamankatu,117,124,1324,1300
+54,Gyldenintie,113,116,1236,1298
+133,Paavalinpuisto,148,153,1255,1277
+138,Arabiankatu,136,137,1353,1270
+201,Länsisatamankuja,119,112,1240,1263
+3,Kapteeninpuistikko,121,124,1164,1216
+68,Albertinkatu,126,129,1220,1209
+202,Merihaka,145,147,1226,1199
+162,Leppäsuonaukio,138,147,1081,1180
+142,Koskelantie,157,148,1178,1161
+23,Kiasma,149,154,1190,1147
+56,Luoteisväylä,145,138,1221,1143
+69,Kalevankatu,137,136,1103,1139
+67,Perämiehenkatu,118,122,1149,1134
+125,Arielinkatu,128,146,1190,1102
+80,Jäähalli,161,167,1078,1098
+101,Munkkivuoren ostoskeskus,141,135,1123,1097
+141,Intiankatu,125,125,1065,1096
+115,Venttiilikuja,155,155,967,1089
+111,Esterinportti,156,165,1043,1087
+727,Ratsutori,91,76,1138,1073
+140,Verkatehtaanpuisto,110,117,1086,1072
+8,Vanha kirkkopuisto,138,145,1140,1063
+112,Rautatieläisenkatu,175,161,1151,1061
+85,Jalavatie,153,158,948,1045
+33,Kauppakorkeakoulu,134,144,941,1037
+149,Toinen linja,158,166,1036,1037
+239,Viikin tiedepuisto,98,85,1025,1035
+38,Töölöntori,153,151,949,1029
+260,Herttoniemi (M),88,87,1028,1027
+95,Munkkiniemen aukio,160,152,1049,1016
+53,Heikkiläntie,116,109,1053,1013
+49,Annankatu,131,129,1027,1012
+52,Heikkilänaukio,108,103,977,1009
+87,Kustaankatu,161,162,861,1008
+11,Unioninkatu,136,121,1314,1000
+129,Pernajantie,154,154,899,993
+28,Lastenlehto,139,141,954,991
+120,Mäkelänkatu,152,152,799,981
+127,Teurastamo,144,138,1094,980
+96,Huopalahdentie,156,145,1006,962
+81,Stenbäckinkatu,147,161,945,950
+70,Sammonpuistikko,118,136,906,938
+161,Eteläesplanadi,138,124,1044,934
+43,Karhupuisto,144,159,780,934
+625,Suomenlahdentie,73,64,1015,928
+73,Kesäkatu,144,148,950,927
+573,Urheilupuisto (M),89,88,948,927
+20,Kaisaniemenpuisto,130,125,966,924
+627,Piispansilta,69,71,886,913
+10,Kasarmitori,115,114,877,913
+46,Diakoniapuisto,155,159,856,910
+86,Kuusitie,148,147,871,906
+105,Tilkantori,138,136,963,894
+245,Kulosaari (M),143,120,902,892
+35,Cygnaeuksenkatu,124,127,813,861
+517,Länsituuli,82,83,860,850
+579,Niittymaa,80,76,856,842
+114,Ratapihantie,158,161,810,841
+32,Eläinmuseo,122,135,828,835
+110,Maistraatintori,144,153,770,830
+65,Hernesaarenranta,112,99,1016,829
+107,Tenholantie,138,140,792,815
+83,Meilahden sairaala,141,159,760,811
+131,Elimäenkatu,138,147,762,800
+51,Itälahdenkatu,87,85,791,799
+7,Designmuseo,117,126,757,787
+163,Lehtisaarentie,150,114,846,786
+275,Itäkeskus (M),56,58,772,780
+15,Ritarikatu,119,119,757,779
+42,Haapaniemenkatu,145,147,663,779
+14,Senaatintori,130,121,744,762
+60,Kaapelitehdas,107,103,774,762
+543,Otaranta,100,98,767,751
+519,Tapionaukio,83,86,701,745
+711,Kirjurinkuja,82,77,779,736
+135,Velodrominrinne,125,130,740,735
+143,Kuikkarinne,104,97,713,728
+731,Leppävaarankäytävä,75,65,984,722
+144,Käpyläntie,111,110,702,718
+13,Merisotilaantori,98,93,682,697
+243,Mustikkamaa,97,102,710,695
+93,Torpanranta,119,113,740,687
+103,Vihdintie,128,128,684,687
+106,Korppaanmäentie,126,130,679,679
+84,Paciuksenkatu,136,146,669,677
+148,Juhana Herttuan tie,80,87,635,674
+79,Uimastadion,142,142,667,673
+59,Salmisaarenranta,95,98,636,667
+109,Hertanmäenkatu,115,137,509,666
+66,Ehrenströmintie,93,89,678,658
+119,Gebhardinaukio,135,140,633,652
+50,Melkonkuja,73,82,625,647
+92,Saunalahdentie,153,124,675,647
+139,Muotoilijankatu,106,101,652,635
+132,Hollolantie,118,125,576,634
+2,Laivasillankatu,101,88,609,627
+211,Haagan tori,123,122,627,625
+48,Mastokatu,82,87,565,611
+221,Thalianaukio,103,96,614,608
+55,Puistokaari,91,93,589,606
+98,Ulvilantie,114,109,568,596
+212,Tunnelitie,118,126,584,595
+207,Vanha Viertotie,113,112,556,593
+34,Kansallismuseo,129,127,566,591
+128,Päijänteentie,125,119,535,582
+235,Katariina Saksilaisen katu,104,96,587,577
+213,Huopalahden asema,108,114,553,572
+290,Vallilan varikko,96,115,439,572
+146,Pohjolanaukio,94,97,564,571
+147,Käpylän asema,99,93,531,570
+255,Laivalahden puistotie,66,72,566,558
+208,Valimotie,99,97,556,553
+513,Hakalehto,74,84,522,530
+527,Otsolahti,69,73,515,530
+559,Pohjankulma,85,73,551,528
+251,Laajasalon ostoskeskus,53,52,539,524
+27,Eerikinkatu,98,111,505,517
+254,Agnetankuja,64,62,547,513
+262,Siilitie (M),57,57,555,513
+501,Hanasaari,100,93,499,507
+206,Ruskeasuon varikko,124,116,500,506
+203,Opastinsilta,122,133,444,498
+274,Voikukantie,51,44,486,490
+611,Matinkartanontie,50,49,482,486
+505,Westendinasema,82,78,493,482
+240,Viikin normaalikoulu,64,60,504,474
+100,Teljäntie,87,90,464,469
+256,Herttoniemenranta,85,81,439,468
+591,Mellstenintie,64,59,463,454
+222,Huovitie,105,94,468,451
+244,Relanderinaukio,91,98,437,451
+521,Kulttuuriaukio,75,78,407,441
+701,Gallen-Kallelan tie,87,75,436,439
+258,Abraham Wetterin tie,65,61,428,438
+533,Tekniikantie,67,72,402,436
+47,Vanha Kauppahalli,83,79,455,431
+293,Korkeasaari,59,67,409,431
+725,Rummunlyöjänkatu,72,70,447,429
+641,Komeetankatu,59,56,423,426
+210,Pajamäki,71,77,420,422
+270,Tulisuontie,49,61,345,418
+267,Roihupelto,64,55,437,415
+232,Oulunkylän asema,73,70,485,413
+292,Koskelan varikko,84,91,393,410
+204,A.I. Virtasen aukio,95,100,326,409
+136,Sofianlehdonkatu,90,90,401,409
+284,Myllypuro (M),40,42,393,409
+234,Otto Brandtin tie,73,71,460,407
+707,Majurinkulma,71,66,419,406
+220,Ida Aalbergin tie,75,73,365,405
+539,"Aalto-yliopisto (M), Tietotie",63,69,398,403
+589,Haukilahdenranta,52,57,432,399
+525,Mäntyviita,57,63,396,392
+265,Siilitie 9,48,55,361,391
+241,Agronominkatu,53,50,403,381
+603,Matinlahdenranta,47,51,406,381
+529,Keilaniemi (M),81,80,340,380
+104,Kriikunakuja,87,82,386,379
+145,Pohjolankatu,81,91,320,377
+205,Ilmalan asema,95,103,266,373
+99,Muusantori,86,74,423,372
+555,Kalevalantie,73,57,382,371
+545,Sähkömies,63,64,371,371
+264,Eränkävijäntori,68,64,346,367
+219,Näyttelijäntie,76,83,363,366
+209,Takomotie,82,74,370,363
+215,Pitäjänmäen asema,72,77,294,362
+261,Asentajanpuisto,68,69,331,350
+585,Haukilahdenaukio,52,56,360,348
+509,Revontulentie,76,78,321,347
+268,Porolahden koulu,60,48,377,347
+218,Pohjois-Haagan asema,77,77,351,344
+571,Tapiolan urheilupuisto,54,61,360,343
+224,Vesakkotie,80,90,345,341
+263,Herttoniemen kirkko,67,79,275,341
+249,Isosaarentie,39,40,323,339
+272,Marjaniementie,49,38,403,335
+749,Vallikatu,35,41,237,333
+557,Louhentori,63,57,348,333
+531,Keilaranta,83,85,287,332
+227,Kylävoudintie,78,86,311,330
+246,Tupasaarentie,77,75,348,325
+613,Matinkyläntie,44,46,320,323
+294,Postipuisto,92,85,302,323
+549,Maarinranta,56,59,299,320
+511,Sateentie,77,72,334,312
+745,Leppävaaran urheilupuisto,37,39,342,307
+130,Teollisuuskatu,87,102,268,307
+733,Läkkitori,55,57,355,296
+595,Westendintie,62,60,309,293
+88,Kiskontie,95,105,271,292
+635,Kuunkatu,47,47,272,290
+225,Maunula,70,73,264,289
+216,Jännetie,61,66,251,288
+709,Yhdyskunnankuja,52,53,277,287
+583,Haukilahdensolmu,51,57,275,287
+252,Humalniementie,46,51,256,281
+723,Säterinniitty,50,51,268,280
+737,Muurarinkuja,36,45,287,280
+214,Valimon asema,74,78,267,279
+278,Puotilantie,33,35,290,279
+250,Reiherintie,30,34,276,278
+281,Puotila (M),38,38,294,277
+108,Radiokatu,76,83,224,272
+231,Siltavoudintie,58,58,234,272
+226,Lepolantie,77,71,318,271
+523,Ahertajantie,65,68,248,268
+621,Hauenkalliontie,46,44,260,267
+503,Keilalahti,77,82,247,266
+238,Pihlajamäki,52,55,227,266
+553,Metsänneidonpolku,46,43,247,264
+18,Porthania,88,94,266,261
+266,Siilitie 13,38,45,194,255
+248,Gunillantie,31,29,259,254
+619,Etuniementie,35,31,241,251
+532,Betonimies,72,80,248,249
+257,Margareetankuja,48,49,262,248
+761,Mäkkylän asema,71,66,213,246
+228,Kustaankartano,51,61,200,245
+715,Komentajankatu,35,35,229,240
+705,Laajalahden keskus,64,54,243,239
+609,Sepetlahdentie,37,34,241,238
+653,Lukutori,42,43,247,238
+515,Oravannahkatori,55,58,213,237
+597,Linnakepolku,64,56,290,237
+629,Piispanportti,48,44,264,236
+763,Kalkkipellonmäki,57,52,213,235
+900,Orionintie,24,20,245,227
+280,Puotilan ostoskeskus,41,35,278,222
+575,Tontunmäentie,42,43,192,222
+236,Hernepellontie,54,48,225,221
+601,Nokkala,41,35,204,217
+563,Mankkaanlaaksontie,66,57,214,216
+596,Toppelundinportti,52,52,245,216
+247,Haakoninlahdenkatu,22,20,221,215
+651,Suurpellonaukio,51,50,216,213
+753,Linnuntie,46,45,236,212
+637,Ruomelantie,42,41,198,211
+713,Upseerinkatu,34,33,172,211
+997,Workshop Helsinki,3,135,3,210
+285,Orpaanporras,34,33,192,209
+276,Puotinharju,36,41,210,206
+291,Itäkeskus Metrovarikko,13,10,200,205
+269,Peukaloisentie,35,39,181,204
+617,Tiistinkallio,34,35,221,202
+233,Kirkkoherrantie,48,56,220,202
+719,Säteri,57,60,173,201
+703,Elfvik,56,55,207,195
+751,Vallipolku,27,31,147,191
+623,Nelikkotie,48,39,177,188
+631,Friisilänaukio,47,44,190,188
+577,Olarinluoma,62,53,194,186
+242,Von Daehnin katu,35,37,177,180
+271,Prinsessantie,33,35,156,178
+237,Aulangontie,50,44,168,178
+757,Painiitty,39,39,159,178
+217,Marttila,64,62,192,177
+253,Tammisalon aukio,42,42,172,176
+551,Tietäjä,54,51,161,176
+230,Mäkitorpantie,50,48,155,167
+649,Lystimäensilta,30,33,176,167
+286,Mamsellimyllynkatu,39,26,160,166
+607,Nuottaniementie,29,29,166,160
+507,Golfpolku,48,46,142,156
+229,Käskynhaltijantie,40,39,122,152
+283,Alakiventie,30,31,135,152
+721,Säterinrinne,44,34,143,152
+200,Länsiterminaali,38,37,172,151
+643,Auringonkatu,28,33,124,151
+645,Piispankallio,44,37,144,147
+767,Ruutikatu,25,28,106,145
+639,Itäportti,30,43,102,143
+565,Mankkaanaukio,42,47,145,137
+593,Toppelundintie,42,40,146,137
+615,Tiistiläntie,31,29,128,136
+282,Karhulantie,35,31,155,136
+518,Tuulimäki,42,45,158,134
+587,Hauenkallio,31,35,132,134
+561,Koivu-Mankkaa,40,38,134,130
+739,Postipuun koulu,33,38,110,124
+647,Lystimäki,36,34,140,121
+735,Mestarinkatu,31,33,102,119
+901,Outotec,31,31,98,100
+537,Innopoli,31,44,74,95
+633,Avaruuskatu,17,25,83,93
+747,Leppävaaran uimahalli,27,21,82,88
+755,Kutsuntatie,28,30,73,84
+538,Hagalundinpuisto,23,36,67,75
+277,Marjaniemi,32,23,103,61
+769,Lumivaarantie,26,25,57,56
+741,Gransinmäki,17,16,48,51
+902,Derby Business Park,25,23,46,41
+279,Puotinkylän kartano,5,7,10,16
